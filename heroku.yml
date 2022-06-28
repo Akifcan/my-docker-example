@@ -1,8 +1,0 @@
-build:
-  docker:
-    web: .
-run:
-  web: npm run start
-setup:
-  config:
-    PORT: 3000

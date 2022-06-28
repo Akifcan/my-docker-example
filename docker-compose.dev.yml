@@ -1,0 +1,10 @@
+services: 
+  nginx:
+    ports:
+      - "3000:80"
+  node-app:
+    environment:
+      - NODE_ENV=development
+    env_file:
+      - ./.env.dev
+    command: npm run dev 
