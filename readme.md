@@ -12,3 +12,5 @@
 
 `docker logs 831e934d98cb -f`
 
+`docker tag imagename:latest akifcan/reponame:tagname`
+
